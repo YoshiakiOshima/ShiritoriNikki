@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CalendarView.h
 //  shiritoriNIKKI
 //
 //  Created by OSHIMAYOSHIAKI on 2013/10/09.
@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <iAd/iAd.h>
+#import "CKCalendarView.h"
 
-@interface ViewController : UIViewController<ADBannerViewDelegate>
+
+
+@interface CalendarView : UIView<CKCalendarDelegate>
 
 @end
