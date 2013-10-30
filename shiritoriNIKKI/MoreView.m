@@ -256,7 +256,7 @@
 //    stringMes=@"aaa";
     _nadView = [[NADView alloc] initWithFrame:CGRectMake(0.f, rect.size.height-50, NAD_ADVIEW_SIZE_320x50.width, NAD_ADVIEW_SIZE_320x50.height)];
     // apiKey, spotID をセットする
-    [_nadView setNendID:@"4bae65b7a0e8be7953defab3d16e13a4c4498a9f" spotID:@"101651"];
+    [_nadView setNendID:@"------------------------------" spotID:@"------"];
     // デリゲートオブジェクトの指定
     [_nadView setDelegate:self];
     // 広告のロードを開始
